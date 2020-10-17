@@ -1,0 +1,25 @@
+{
+  "name": "fastify-plugin-dev",
+  "version": "0.0.1",
+  "description": "a fastify plugin providing webpack middleware with hot reloading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fastify",
+    "webpack",
+    "hot reloading",
+    "hmr"
+  ],
+  "author": "Dave Honneffer <pearofducks@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack-dev-middleware": "^4.0.0-rc.3",
+    "webpack-hot-client": "^4.1.3"
+  },
+  "devDependencies": {
+    "fastify": "^3.6.0",
+    "webpack": "^5.1.3"
+  }
+}
