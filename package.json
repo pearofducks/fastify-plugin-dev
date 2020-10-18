@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "a fastify plugin providing webpack middleware with hot reloading",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "version": "npm publish",
+    "postversion": "git push --follow-tags"
+  },
   "keywords": [
     "fastify",
     "webpack",
