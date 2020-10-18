@@ -1,10 +1,9 @@
 {
   "name": "fastify-plugin-dev",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "a fastify plugin providing webpack middleware with hot reloading",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "fastify",
     "webpack",
