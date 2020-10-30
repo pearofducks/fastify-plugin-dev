@@ -1,5 +1,5 @@
 const hotClient = require('webpack-hot-client')
-const devMiddleware = require('webpack-dev-middleware').default
+const devMiddleware = require('webpack-dev-middleware')
 const fp = require('fastify-plugin')
 
 const setupHot = (wpCompiler) => {
